@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 100vh;
+            display: flex ;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .parent{
+            width: 400px;
+            height: 400px;
+            background-color: red;
+        }
+
+        .child{
+
+        }
+
+        @media (max-width:500px) {
+            .parent{
+                width: 000px;
+                height: 000px ;
+                background: green;
+            }
+            .child{
+                background: blue;
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+            }
+        }
+        
+        
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="parent">
+        <div class="child"></div> 
+    </div>
+</div>
+
+   
+</body>
+</html>
