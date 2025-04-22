@@ -1,0 +1,265 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ /* start of header style */
+
+header{
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 26px;
+    color: #fe5d37;
+    align-items:center;
+    font-family: "Heebo", sans-serif;
+    padding: 0px 80px;
+}
+
+
+
+
+
+
+
+
+nav ul li a{
+    text-decoration: none ;
+    text-transform: capitalize;
+    color: black;
+}
+
+
+nav ul li a:hover{
+    color: #fe5d37;
+    
+}
+
+
+.href-link{
+    color: #fe5d37;
+}
+
+
+
+.logo{
+    font-size: 35px ;
+    color: #fe5d37;
+}
+
+.logo span{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fe5d37;
+    font-size: 30px;
+}
+
+.logo i{
+    color: #fe5d37;
+    font-size: 35px;
+    margin-right: 14px; 
+}
+
+
+button{
+    color: white;
+    padding: 10px 16px;
+    background: #fe5d37;
+    border-radius: 25px;
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border: none;
+}
+
+@media (max-width:386){
+    button
+    {
+        padding: 0px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+.arrow{
+    font-size: 19px;
+}
+/*end of header style*/
+
+/* *start of landing page* */
+
+
+
+.landing-page{
+    text-align: center;
+      
+}
+
+@media  (min-width: 1300px){
+    .landing-page{
+        padding: 0px 80px;
+    }
+}
+
+.bg{
+
+    position: relative;
+
+
+}
+.bg img{
+    width: 100%;
+}
+
+.top-cloud{
+    background-image: url(../img/bg-header-top.png); 
+    height: 10px;
+    width: 100%;  
+    position: absolute;
+    top: 0px;
+}
+
+.bottom-cloud{
+    background-image: url(../img/bg-header-bottom.png);
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 3px;
+}
+
+.title{
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    text-align: left;
+}
+
+
+
+@media ( max-width:1050px ){
+    .title h1{
+        font-Size: 30PX;
+        
+
+    }
+}
+
+
+
+
+.title h1{
+    font-family:"lobster two";
+    font-size:80px;
+    color:white;
+    width: 70%;
+}
+.join-button button{
+    color: white; 
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 16px 16px;
+    background-color: coral;
+     border: none;
+     border-radius: 50px;
+     font-weight:700px ;
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     gap: 20px;
+ }
+
+ nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+
+}
+
+nav .fa-bars{
+    display:none;
+}
+
+@media ( max-width:750px ){
+    .title h1{
+     font-size: 30px;
+    }
+ 
+ 
+     nav ul{
+         display: none;
+     }
+ 
+     nav .fa-bars{
+         display: initial;
+ 
+ 
+     }
+ 
+     .join-button button{
+         display: none;
+     }
+ 
+ }
+
+.learn-more{
+    background-color: #fe5d37;
+}
+
+.our-classes{
+    background-color: #103741;
+}
+
+
+
+
+.learn-more:hover{
+    background: #f86949;
+}
+
+.our-classes:hover{
+    background-color: #2b313a;
+}
+
+.title p{
+
+
+
+
+    margin: 30px 0px;
+    width: 70%;
+    color: white;
+}
+
+@media (max-width: 451px ) {
+    .learn-more{
+        padding: 5px;
+        font-size: 14px;
+
+    }
+
+    .our-classes{
+       
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .title p{
+        margin: 5px 0px;
+        font-size: 14px
+        ;
+    }
+    
+}
+
+
+
+
+/* end of landing page */
+
+
