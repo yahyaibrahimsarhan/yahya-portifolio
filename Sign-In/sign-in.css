@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+    height: 350px;
+    width: 350px;
+    border: 1px solid grey;
+     box-shadow:0 0 20px rgba(0, 0, 0, 0.3);
+     padding: 80px 50px;
+}
+
+.bussiness-acount{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 0px 20px 0px 0px; 
+    object-fit: cover;
+
+}             
+
+.signed-in{ 
+    justify-content: space-between;
+    gap: 20px;      
+    display: flex;
+    align-items: center ;
+    margin: 14px 0;
+}
+
+.fa-toggle-off{
+font-size: 25px;
+}
+
+p ul li a{
+    text-decoration:  none;
+}
+
+
+
+button{
+    background-color: rgb(92, 92, 194);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 14px;
+}
+
+.div{
+    display: flex;
+    align-items: center;
+}
+
+.img-bussiness{
+    display: flex;
+    align-items: center;
+}
+
